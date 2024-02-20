@@ -1,0 +1,67 @@
+{"properties": [
+  {
+    "name": "spring.application.version",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.version'"
+  },
+  {
+    "name": "spring.application.description",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.description'"
+  },
+  {
+    "name": "spring.application.groupId",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.groupId'"
+  },
+  {
+    "name": "spring.application.artifactId",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.artifactId'"
+  },
+  {
+    "name": "spring.application.java",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.java'"
+  },
+  {
+    "name": "spring.ci.ambiente",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.ci.ambiente'"
+  },
+  {
+    "name": "spring.ci.secrets",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.ci.secrets'"
+  },
+  {
+    "name": "protocolo.protocolo",
+    "type": "java.lang.String",
+    "description": "A description for 'protocolo.protocolo'"
+  },
+  {
+    "name": "protocolo.consultar.url",
+    "type": "java.lang.String",
+    "description": "A description for 'protocolo.consultar.url'"
+  },
+  {
+    "name": "protocolo.gerar.url",
+    "type": "java.lang.String",
+    "description": "A description for 'protocolo.gerar.url'"
+  },
+  {
+    "name": "protocolo.registrar.url",
+    "type": "java.lang.String",
+    "description": "A description for 'protocolo.registrar.url'"
+  },
+  {
+    "name": "protocolo.separador",
+    "type": "java.lang.String",
+    "description": "A description for 'protocolo.separador'"
+  },
+  {
+    "name": "protocolo.bloco",
+    "type": "java.lang.String",
+    "description": "A description for 'protocolo.bloco'"
+  }
+]}
