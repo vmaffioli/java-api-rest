@@ -1,0 +1,10 @@
+spring:
+    banner:
+        location: classpath:/banner.txt
+    datasource:
+        driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+        url: ${SPRING_DATASOURCE_URL:}
+        username: ${SPRING_DATASOURCE_USERNAME:}
+        password: ${SPRING_DATASOURCE_PASSWORD:}
+server:
+    port: 8088

@@ -1,0 +1,17 @@
+spring:
+    banner:
+        location: classpath:/banner.txt
+    profiles:
+        active: ${PROFILE:dev}
+    application:
+        name: "@project.name@"
+        version: "@project.version@"
+        description: "@project.description@"
+        groupId: "@project.groupId@"
+        artifactId: "@project.artifactId@"
+        java: "@java.version@"
+    mvc:
+      pathmatch:
+        matching-strategy: ant-path-matcher
+server:
+    port: 8443
