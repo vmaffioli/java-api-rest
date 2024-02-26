@@ -27,20 +27,27 @@ public class ObjectRestController {
 	@Autowired
 	private IObjectService service;
 
-	@ApiOperation("Get")
-	@GetMapping(value = "/get")
-	public ReturnOutDTO get(@PathVariable("id") int id) {
+	@ApiOperation("Get Object by ID")
+	@GetMapping(value = "/{id}")
+	public ReturnOutDTO get(@PathVariable("id") Integer id) {
 		ObjectInDTO inDTO = new ObjectInDTO();
 		inDTO.setId(id);
 
-		return service.create(inDTO);
+		return service.getObjectById(inDTO);
 	}
 
-	@ApiOperation("Create")
-	@PostMapping(value = "/create")
+	@ApiOperation("Get All Objects")
+	@GetMapping
+	public ReturnOutDTO getAll() {
+
+		return service.getAllObjects();
+	}
+
+	@ApiOperation("Save Object")
+	@PostMapping
 	public ReturnOutDTO post(@RequestBody @Valid ObjectInDTO inDTO) {
 
-		return service.create(inDTO);
+		return service.saveObject(inDTO);
 	}
 
 }

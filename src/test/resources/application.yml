@@ -13,7 +13,4 @@ spring:
     mvc:
       pathmatch:
         matching-strategy: ant-path-matcher 
-server:
-    port: 8080
-    servlet:
-        context-path: "/@project.artifactId@"
+

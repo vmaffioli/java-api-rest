@@ -16,6 +16,6 @@ public class ObjectInDTO {
 	private int id;
 
 	@NotBlank(message = "Usuário logado não informado")
-	private String value;
+	private String details;
 
 }
