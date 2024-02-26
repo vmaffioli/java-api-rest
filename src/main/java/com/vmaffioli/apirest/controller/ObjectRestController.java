@@ -29,7 +29,7 @@ public class ObjectRestController {
 
 	@ApiOperation("Get Object by ID")
 	@GetMapping(value = "/{id}")
-	public ReturnOutDTO get(@PathVariable("id") Integer id) {
+	public ReturnOutDTO get(@PathVariable("id") int id) {
 		ObjectInDTO inDTO = new ObjectInDTO();
 		inDTO.setId(id);
 

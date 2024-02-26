@@ -12,10 +12,10 @@ import lombok.Setter;
 @NoArgsConstructor
 public class ObjectInDTO {
 
-	@NotNull(message = "Sistema origem não informado")
+	@NotNull(message = "ID not found")
 	private int id;
 
-	@NotBlank(message = "Usuário logado não informado")
+	@NotBlank(message = "DETAILS not found")
 	private String details;
 
 }

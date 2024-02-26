@@ -15,7 +15,7 @@ import lombok.Setter;
 public class ObjectEntity {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 
 	@Setter
